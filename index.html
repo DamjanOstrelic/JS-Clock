@@ -46,7 +46,7 @@
       var day = now.getDate();
       var month = now.getMonth();
       var year = now.getFullYear();
-      document.querySelector(".date").innerHTML = `${day}/${month + 1}/${year}`;
+      document.querySelector(".date").innerHTML = `${("0" + day).slice(-2)}/${("0" + (month + 1)).slice(-2)}/${("0" + year).slice(-2)}`;
       //add digital
 
       digital.style.color = "white";
