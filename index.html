@@ -43,9 +43,9 @@
       hourHand.style.transform = `rotate(${hoursDegrees + 90}deg)`;
 
       //add date
-      var day = now.getDate();
-      var month = now.getMonth();
-      var year = now.getFullYear();
+      let day = now.getDate();
+      let month = now.getMonth();
+      let year = now.getFullYear();
       document.querySelector(".date").innerHTML = `${("0" + day).slice(-2)}/${("0" + (month + 1)).slice(-2)}/${year}`;
       //add digital
 
